@@ -75,13 +75,13 @@ body {
     position:fixed;
     top:0;
     text-align:left;
-    margin-left: 100px;
+    margin-left: 50px;
     z-index:1;
     color:#fff;
     padding-bottom:10vh;
 }
 #middle h1 {
-    color:rgb(0, 161, 73);
+    color:rgb(0, 222, 100);
     font-size:40px;
 }
 #projects {
