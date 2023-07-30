@@ -93,7 +93,7 @@ body {
     color: #fff;
     position: fixed;
     right:0;
-    bottom:90vh;
+    bottom:70vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -112,7 +112,7 @@ body {
     color:#fff;
     position:fixed;
     right:0;
-    bottom:70vh;
+    bottom:50vh;
     display:flex;
     flex-direction: column;
     justify-content:center;
@@ -130,7 +130,7 @@ body {
     color:#fff;
     position:fixed;
     right:0;
-    bottom:50vh;
+    bottom:30vh;
     display:flex;
     flex-direction: column;
     justify-content:center;
@@ -147,7 +147,7 @@ body {
     color:#fff;
     position:fixed;
     right:0;
-    bottom:30vh;
+    bottom:10vh;
     display:flex;
     flex-direction: column;
     justify-content:center;
