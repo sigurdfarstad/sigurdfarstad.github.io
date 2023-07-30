@@ -74,7 +74,7 @@ body {
     justify-content:center;
     position:fixed;
     top:0;
-    text-align:center;
+    text-align:left;
     z-index:1;
     color:#fff;
     padding-bottom:10vh;
@@ -107,7 +107,7 @@ body {
     height:10vw;
     text-align:center;
     font-size:25px;
-    transform:rotate(-90deg);
+    transform:rotate(45vw);
     background:transparent;
     color:#fff;
     position:fixed;
