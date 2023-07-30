@@ -1,28 +1,28 @@
 function showprojects(){
     $("#projects_container").css("display","inherit");
-    $("#projects_container").addClass("animated slideInDown");
+    $("#projects_container").addClass("animated slideInRight");
     setTimeout(function(){
-        $("#projects_container").removeClass("animated slideInDown");
+        $("#projects_container").removeClass("animated slideOutRight");
     },800);
 }
 function closeprojects(){
-    $("#projects_container").addClass("animated slideOutUp");
+    $("#projects_container").addClass("animated slideOutRight");
     setTimeout(function(){
-        $("#projects_container").removeClass("animated slideOutUp");
+        $("#projects_container").removeClass("animated slideOutRight");
         $("#projects_container").css("display","none");
     },800);
 }
 function showabout(){
     $("#about_container").css("display","inherit");
-    $("#about_container").addClass("animated slideInLeft");
+    $("#about_container").addClass("animated slideInRight");
     setTimeout(function(){
-        $("#about_container").removeClass("animated slideInLeft");
+        $("#about_container").removeClass("animated slideInRight");
     },800);
 }
 function closeabout(){
-    $("#about_container").addClass("animated slideOutLeft");
+    $("#about_container").addClass("animated slideOutRight");
     setTimeout(function(){
-        $("#about_container").removeClass("animated slideOutLeft");
+        $("#about_container").removeClass("animated slideOutRight");
         $("#about_container").css("display","none");
     },800);
 }
@@ -42,15 +42,15 @@ function closework(){
 }
 function showcontact(){
     $("#contact_container").css("display","inherit");
-    $("#contact_container").addClass("animated slideInUp");
+    $("#contact_container").addClass("animated slideInRight");
     setTimeout(function(){
-        $("#contact_container").removeClass("animated slideInUp");
+        $("#contact_container").removeClass("animated slideInRight");
     },800);
 }
 function closecontact(){
-    $("#contact_container").addClass("animated slideOutDown");
+    $("#contact_container").addClass("animated slideOutRight");
     setTimeout(function(){
-        $("#contact_container").removeClass("animated slideOutDown");
+        $("#contact_container").removeClass("animated slideOutRight");
         $("#contact_container").css("display","none");
     },800);
 }
