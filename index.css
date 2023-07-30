@@ -107,12 +107,12 @@ body {
     height:10vw;
     text-align:center;
     font-size:25px;
-    transform:rotate(45vw);
+    transform:rotate(90deg);
     background:transparent;
     color:#fff;
     position:fixed;
-    left:0;
-    bottom:40vh;
+    right:0;
+    bottom:60vh;
     display:flex;
     flex-direction: column;
     justify-content:center;
