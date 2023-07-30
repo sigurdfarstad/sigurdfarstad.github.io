@@ -93,14 +93,14 @@ body {
     background: transparent;
     color: #fff;
     position: fixed;
-    right:0;
-    bottom:70vh;
+    left:0;
+    bottom:10vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     z-index: 4;
     transition: 0.4s ease-in-out;
-    border-radius: 100px 0px 0px 100px;
+    border-radius: 0px 100px 100px 0px;
 }
 
 #about {
