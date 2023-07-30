@@ -113,7 +113,7 @@ body {
     color:#fff;
     position:fixed;
     right:0;
-    bottom:50vh;
+    bottom:70vh;
     display:flex;
     flex-direction: column;
     justify-content:center;
@@ -131,7 +131,7 @@ body {
     color:#fff;
     position:fixed;
     right:0;
-    bottom:30vh;
+    bottom:40vh;
     display:flex;
     flex-direction: column;
     justify-content:center;
