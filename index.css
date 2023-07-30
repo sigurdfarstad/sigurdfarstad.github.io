@@ -91,8 +91,8 @@ body {
     background: transparent;
     color: #fff;
     position: fixed;
-    top: 0;
-    right: 45vw;
+    right:0;
+    bottom:10vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -106,12 +106,12 @@ body {
     height:10vw;
     text-align:center;
     font-size:25px;
-    transform:rotate(90deg);
+    /* transform:rotate(90deg); */
     background:transparent;
     color:#fff;
     position:fixed;
     right:0;
-    bottom:60vh;
+    bottom:100vh;
     display:flex;
     flex-direction: column;
     justify-content:center;
@@ -124,12 +124,12 @@ body {
     height:10vw;
     text-align:center;
     font-size:25px;
-    transform:rotate(90deg);
+    /* transform:rotate(90deg); */
     background:transparent;
     color:#fff;
     position:fixed;
     right:0;
-    bottom:40vh;
+    bottom:70vh;
     display:flex;
     flex-direction: column;
     justify-content:center;
@@ -145,8 +145,8 @@ body {
     background:transparent;
     color:#fff;
     position:fixed;
-    bottom:0;
-    left:45vw;
+    right:0;
+    bottom:40vh;
     display:flex;
     flex-direction: column;
     justify-content:center;
