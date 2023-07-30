@@ -71,9 +71,10 @@ body {
     height:90vh;
     display:flex;
     flex-direction:column;
-    justify-content:center;
+    justify-content:start;
     position:fixed;
     top:0;
+    bottom: 80;
     text-align:left;
     margin-left: 50px;
     z-index:1;
