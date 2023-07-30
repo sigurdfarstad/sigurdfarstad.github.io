@@ -318,7 +318,6 @@ body {
 }
 #footer a {
     color:rgb(255, 50, 50);
-    text-align:left;
 }
 #particles-js {
     position:fixed;
@@ -357,7 +356,7 @@ body {
         display:none;
     }
     #footer {
-        text-align:center;
+        text-align:left;
     }
     #middle {
         width:90vw;
