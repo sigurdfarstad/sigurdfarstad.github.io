@@ -1,14 +1,14 @@
 function showprojects(){
     $("#projects_container").css("display","inherit");
-    $("#projects_container").addClass("animated slideInRight");
+    $("#projects_container").addClass("animated slideInLeft");
     setTimeout(function(){
-        $("#projects_container").removeClass("animated slideOutRight");
+        $("#projects_container").removeClass("animated slideInLeft");
     },800);
 }
 function closeprojects(){
-    $("#projects_container").addClass("animated slideOutRight");
+    $("#projects_container").addClass("animated slideOutLeft");
     setTimeout(function(){
-        $("#projects_container").removeClass("animated slideOutRight");
+        $("#projects_container").removeClass("animated slideOutLeft");
         $("#projects_container").css("display","none");
     },800);
 }
