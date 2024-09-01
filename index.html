@@ -29,10 +29,9 @@
         <div class="box2 onlywide animated bounceOutRight" style="animation-delay: 1800ms;"></div>
         <div class="box2 onlywide animated bounceOutRight" style="animation-delay: 1700ms;"></div>
     </div>
-    <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay: 1000ms;">about</a>
-    <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay: 1000ms;">work</a>
-    <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay: 1000ms;">contact</a>
-    <a id="projects" onclick="showprojects()" class="animated fadeIn" style="animation-delay: 1000ms;">projects</a>
+    <a id="CV" onclick="show_CV()" class="animated fadeIn" style="animation-delay: 1000ms;">CV</a>
+    <a id="kontakt" onclick="show_kontakt()" class="animated fadeIn" style="animation-delay: 1000ms;">kontakt</a>
+    <a id="prosjekt" onclick="show_prosjekt()" class="animated fadeIn" style="animation-delay: 1000ms;">prosjekt</a>
     <div id="middle" class="animated slideInDown" style="animation-delay: 2000ms;">
         <section>
             <h1>Sigurd Farstad Iversen</h1>
@@ -44,73 +43,13 @@
 
         </section>
         <div id="menu">
-            <a onclick="showabout()">about</a>
-            <a onclick="showwork()">work</a>
-            <a onclick="showcontact()">contact</a>
-            <a onclick="showprojects()">projects</a>
+            <a onclick="show_CV()">CV</a>
+            <a onclick="show_kontakt()">kontakt</a>
+            <a onclick="show_prosjekt()">prosjekt</a>
         </div>
     </div>
-    <div id="projects_container" class="container">
-        <div onclick="closeprojects()"><i class="fas fa-angle-right"></i></div>
-        <h1>Projects</h1>
-        <section>
-            <h2>kahpinaš</h2>
-            <p>
-                the cover above is thick. light rain. a few others are sitting by the river, none for the same reasons as juole. 
-                juole hasn't been down here in forever. he tends to forget until old enne tells him off. 
-                the long summer has given long dry grass, the nights are good. there is no reason for juole to have ignored this until granny enne caught the whiff of old sweat from him. <br>
-                <br>
-                Kitte'u!? <br>
-                who-DAT you <br>
-                "Who would you be for?//Who will want you?", enne said with matriarchal distain. <br>
-                <br>
-                juole stepped into the cold water. fear of his sudden inhale being noticed. the washing stone was good and warm.
-                <br>
-                the night went on.
-            </p>
-        </section>
-        <section>
-            <h2>kahpinaš</h2>
-            <p>
-                fog had sunk down to towards the highland steppe, kaphina.
-                the damp white blurr split against the curved top of the kiahhkoaht. house of the old folk.
-                it was taller than any tent, whether small or any of the lávvs of the lowland chiefs.
-                none of the chiefs were on the kahpina in low-cover season, but a small flock of tents had gathered on the lee-side of kiahhkoaht since last folk left for the lowlands.
-                a woman steps out of the singular stone construction.
-                a sung command pierces the thick air.
-                <br>
-            </p>
-            <p style="margin-left: 10px;">
-                [with the neck bent up over the tent to reach the correct audience]
-            </p>
-            <p style="margin-left: 25px;">
-                Forra talle!    <br>
-                food-GEN now    <br>
-                "Food's ready!" <br>
-            </p>
-            <p>
-                completely quiet.
-                the woman turns and enters the warmth again through cloth covers between a narrow stone arch.
-                moments pass and the only sound is the soft whips of the season's slowling chilling breeze.
-                suddenly.
-                children.
-                one here.
-                three there.
-                a bunch more and then a few.
-                all come tumbling between the tents knowing old Enna's stew's waiting.
-                fresh leekroots.
-            </p>
-            <p>
-                laughs grow, and the evening sinks darker as small herds of wolly cattle gather amongst the tents.
-                Enna leans into the fire.
-                whispers long wheezy ancient words.
-                children stare listening to the warm voice suddenly turned broken whistle.
-            </p>
-        </section>
-        
-    </div>
-    <div id="work_container" class="container">
-        <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
+    <div id="CV_container" class="container">
+        <div onclick="close_CV()"><i class="fas fa-angle-right"></i></div>
         <h1>Cover letter examples</h1>
         <section>
             <h2></h2>
@@ -170,8 +109,8 @@
         </section>
         
     </div>
-    <div id="about_container" class="container">
-        <div onclick="closeabout()"><i class="fas fa-angle-right"></i></div>
+    <div id="prosjekt_container" class="container">
+        <div onclick="close_prosjekt()"><i class="fas fa-angle-right"></i></div>
         <h1>'Bio'</h1>
         <section>
             <h2>Some random stuff about me...</h2>
@@ -196,8 +135,8 @@
             </p>
         </section>
     </div>
-    <div id="contact_container" class="container">
-        <div onclick="closecontact()"><i class="fas fa-angle-right"></i></div>
+    <div id="kontakt_container" class="container">
+        <div onclick="close_kontact()"><i class="fas fa-angle-right"></i></div>
         <h1>Contact info</h1>
         <section>
             <h2>Email:</h2>
